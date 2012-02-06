@@ -39,3 +39,8 @@
   float: left;
   margin-left: 20px;
 }
+.modal {
+  position: absolute;
+  top: 50%;
+  filter: none;
+}
