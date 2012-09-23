@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body{font:20px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;padding:60px 50px;}
 #mocha ul,#mocha li{margin:0;padding:0;}
 #mocha ul{list-style:none;}
@@ -23,10 +24,14 @@ body{font:20px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;padding:60px 50px
 #mocha .test.fail::before{content:'✖';font-size:12px;display:block;float:left;margin-right:5px;color:#c00;}
 #mocha .test pre.error{color:#c00;}
 #mocha .test pre{display:inline-block;font:12px/1.5 monaco,monospace;margin:5px;padding:15px;border:1px solid #eee;border-bottom-color:#ddd;-webkit-border-radius:3px;-webkit-box-shadow:0 1px 3px #eee;}
+#report.pass .test.fail{display:none;}
+#report.fail .test.pass{display:none;}
 #error{color:#c00;font-size:1.5 em;font-weight:100;letter-spacing:1px;}
 #stats{position:fixed;top:15px;right:10px;font-size:12px;margin:0;color:#888;}
 #stats .progress{float:right;padding-top:0;}
 #stats em{color:black;}
+#stats a{text-decoration:none;color:inherit;}
+#stats a:hover{border-bottom:1px solid #eee;}
 #stats li{display:inline-block;margin:0 5px;list-style:none;padding-top:11px;}
 code .comment{color:#dddddd;}
 code .init{color:#2f6fad;}

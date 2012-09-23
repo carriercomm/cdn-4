@@ -5,7 +5,7 @@ input{width:auto;}
 .navbar-fixed-top{position:absolute;}
 .nav li{display:block;float:left;}
 .nav li a{display:block;padding:10px 10px 11px;line-height:19px;}
-.navbar .nav li a{color:#999999;}
-.navbar .nav li a:hover{color:#ffffff;text-decoration:none;}
+.navbar .nav li a{color:#777777;}
+.navbar .nav li a:hover{color:#333333;text-decoration:none;}
 .nav-pills .active a{color:#ffffff;background-color:#0088cc;}
 .nav-pills a:hover{text-decoration:none;}

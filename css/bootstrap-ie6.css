@@ -54,11 +54,11 @@ input {
 }
 
 .navbar .nav li a {
-  color: #999999;
+  color: #777777;
 }
 
 .navbar .nav li a:hover {
-  color: #ffffff;
+  color: #333333;
   text-decoration: none;
 }
 
