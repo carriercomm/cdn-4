@@ -27,15 +27,15 @@ body{font:20px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;padding:60px 50px
 #mocha .test h2{position:relative;}
 #mocha .test a.replay{position:absolute;top:3px;right:-20px;text-decoration:none;vertical-align:middle;display:block;width:15px;height:15px;line-height:15px;text-align:center;background:#eee;font-size:15px;-moz-border-radius:15px;border-radius:15px;-webkit-transition:opacity 200ms;-moz-transition:opacity 200ms;transition:opacity 200ms;opacity:0.2;color:#888;}
 #mocha .test:hover a.replay{opacity:1;}
-#report.pass .test.fail{display:none;}
-#report.fail .test.pass{display:none;}
-#error{color:#c00;font-size:1.5 em;font-weight:100;letter-spacing:1px;}
-#stats{position:fixed;top:15px;right:10px;font-size:12px;margin:0;color:#888;}
-#stats .progress{float:right;padding-top:0;}
-#stats em{color:black;}
-#stats a{text-decoration:none;color:inherit;}
-#stats a:hover{border-bottom:1px solid #eee;}
-#stats li{display:inline-block;margin:0 5px;list-style:none;padding-top:11px;}
+#mocha-report.pass .test.fail{display:none;}
+#mocha-report.fail .test.pass{display:none;}
+#mocha-error{color:#c00;font-size:1.5 em;font-weight:100;letter-spacing:1px;}
+#mocha-stats{position:fixed;top:15px;right:10px;font-size:12px;margin:0;color:#888;}
+#mocha-stats .progress{float:right;padding-top:0;}
+#mocha-stats em{color:black;}
+#mocha-stats a{text-decoration:none;color:inherit;}
+#mocha-stats a:hover{border-bottom:1px solid #eee;}
+#mocha-stats li{display:inline-block;margin:0 5px;list-style:none;padding-top:11px;}
 code .comment{color:#dddddd;}
 code .init{color:#2f6fad;}
 code .string{color:#5890ad;}
