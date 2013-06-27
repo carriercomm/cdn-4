@@ -6,20 +6,20 @@ bootstrap:
 	cp ../bootstrap/docs/assets/css/bootstrap.css css/
 	cp ../bootstrap/docs/assets/css/bootstrap-responsive.css css/
 	cp ../bootstrap/docs/assets/css/bootstrap-ie6.css css/
-	lessc --compress css/bootstrap.css > css/bootstrap.min.css
-	lessc --compress css/bootstrap-responsive.css > css/bootstrap-responsive.min.css
-	lessc --compress css/bootstrap-ie6.css > css/bootstrap-ie6.min.css
+	node_modules/.bin/lessc --yui-compress css/bootstrap.css > css/bootstrap.min.css
+	node_modules/.bin/lessc --yui-compress css/bootstrap-responsive.css > css/bootstrap-responsive.min.css
+	node_modules/.bin/lessc --yui-compress css/bootstrap-ie6.css > css/bootstrap-ie6.min.css
 	cp ../bootstrap/docs/assets/js/bootstrap.js js/
-	cp ../bootstrap/docs/assets/js/bootstrap.min.js js/
+	node_modules/.bin/uglifyjs js/bootstrap.js -c -m -o js/bootstrap.min.js
 	cp ../bootstrap/docs/assets/img/glyphicons-halflings.png img/
 	cp ../bootstrap/docs/assets/img/glyphicons-halflings-white.png img/
 
 mocha:
 	cp ../mocha/mocha.css css/
 	cp ../mocha/mocha.js js/
-	lessc --compress css/mocha.css > css/mocha.min.css
-	uglifyjs -nc js/mocha.js > js/mocha.min.js
+	node_modules/.bin/lessc --yui-compress css/mocha.css > css/mocha.min.css
+	node_modules/.bin/uglifyjs js/mocha.js -c -m -o js/mocha.min.js
 
 expect:
 	cp ../expect.js/expect.js js/
-	uglifyjs -nc js/expect.js > js/expect.min.js
+	node_modules/.bin/uglifyjs js/expect.js -c -m -o js/expect.min.js

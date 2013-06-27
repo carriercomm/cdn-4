@@ -1,3 +1,3 @@
 # blueimp Content Delivery Network
 
-http://blueimp.github.com/cdn/
+http://blueimp.github.io/cdn/
