@@ -1,24 +1,30 @@
 {
-    "name": "blueimp-cdn",
-    "version": "1.0.0",
-    "title": "blueimp Content Delivery Network",
-    "homepage": "https://github.com/blueimp/cdn",
-    "author": {
-        "name": "Sebastian Tschan",
-        "url": "https://blueimp.net"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/blueimp/cdn.git"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://www.opensource.org/licenses/MIT"
-        }
-    ],
-    "devDependencies": {
-        "uglify-js": "2.3.6",
-        "less": "1.4.0"
+  "name": "blueimp-cdn",
+  "version": "2.0.0",
+  "title": "blueimp Content Delivery Network",
+  "homepage": "https://github.com/blueimp/cdn",
+  "author": {
+    "name": "Sebastian Tschan",
+    "url": "https://blueimp.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blueimp/cdn.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
     }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-bump-build-git": "~1.0.0",
+    "mocha": "~1.14.0",
+    "expect.js": "~0.2.0"
+  }
 }
